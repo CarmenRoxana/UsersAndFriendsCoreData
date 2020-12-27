@@ -17,12 +17,12 @@
 		F984CF5A2593FADD00E91768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F984CF592593FADD00E91768 /* Assets.xcassets */; };
 		F984CF5D2593FADD00E91768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F984CF5C2593FADD00E91768 /* Preview Assets.xcassets */; };
 		F984CF602593FADD00E91768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F984CF5E2593FADD00E91768 /* LaunchScreen.storyboard */; };
-		F984CF702593FE5C00E91768 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF6F2593FE5C00E91768 /* Initializer.swift */; };
-		F984CF722593FE9900E91768 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF712593FE9900E91768 /* UserStruct.swift */; };
-		F984CF742593FEE500E91768 /* FriendStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF732593FEE500E91768 /* FriendStruct.swift */; };
 		F984CF762593FF5B00E91768 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF752593FF5B00E91768 /* UserView.swift */; };
 		F984CF782593FFC100E91768 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF772593FFC100E91768 /* FriendView.swift */; };
 		F984CF902594216500E91768 /* UsersFriendsCoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = F984CF8F2594216500E91768 /* UsersFriendsCoreData.xcdatamodel */; };
+		F9FF8AA025982B890039FFF4 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF8A9D25982B890039FFF4 /* Initializer.swift */; };
+		F9FF8AA125982B890039FFF4 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF8A9E25982B890039FFF4 /* UserStruct.swift */; };
+		F9FF8AA225982B890039FFF4 /* FriendStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF8A9F25982B890039FFF4 /* FriendStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +38,12 @@
 		F984CF5C2593FADD00E91768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F984CF5F2593FADD00E91768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F984CF612593FADD00E91768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F984CF6F2593FE5C00E91768 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
-		F984CF712593FE9900E91768 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
-		F984CF732593FEE500E91768 /* FriendStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendStruct.swift; sourceTree = "<group>"; };
 		F984CF752593FF5B00E91768 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		F984CF772593FFC100E91768 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		F984CF8F2594216500E91768 /* UsersFriendsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = UsersFriendsCoreData.xcdatamodel; path = UsersFriendsCoreData/UsersFriendsCoreData.xcdatamodel; sourceTree = SOURCE_ROOT; };
+		F9FF8A9D25982B890039FFF4 /* Initializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
+		F9FF8A9E25982B890039FFF4 /* UserStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		F9FF8A9F25982B890039FFF4 /* FriendStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,6 @@
 		F984CF442593FAD100E91768 = {
 			isa = PBXGroup;
 			children = (
-				F984CF6F2593FE5C00E91768 /* Initializer.swift */,
-				F984CF712593FE9900E91768 /* UserStruct.swift */,
-				F984CF732593FEE500E91768 /* FriendStruct.swift */,
 				F984CF4F2593FAD100E91768 /* UsersFriendsCoreData */,
 				F984CF4E2593FAD100E91768 /* Products */,
 			);
@@ -83,7 +80,10 @@
 				F9337B4B2597EC4900E8D619 /* Friend+CoreDataProperties.swift */,
 				F9337B4C2597EC4900E8D619 /* User+CoreDataClass.swift */,
 				F9337B4D2597EC4900E8D619 /* User+CoreDataProperties.swift */,
+				F9FF8A9D25982B890039FFF4 /* Initializer.swift */,
+				F9FF8A9F25982B890039FFF4 /* FriendStruct.swift */,
 				F984CF502593FAD100E91768 /* AppDelegate.swift */,
+				F9FF8A9E25982B890039FFF4 /* UserStruct.swift */,
 				F984CF522593FAD100E91768 /* SceneDelegate.swift */,
 				F984CF572593FAD100E91768 /* ContentView.swift */,
 				F984CF752593FF5B00E91768 /* UserView.swift */,
@@ -176,7 +176,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F984CF702593FE5C00E91768 /* Initializer.swift in Sources */,
 				F9337B4E2597EC4900E8D619 /* Friend+CoreDataClass.swift in Sources */,
 				F9337B502597EC4900E8D619 /* User+CoreDataClass.swift in Sources */,
 				F9337B4F2597EC4900E8D619 /* Friend+CoreDataProperties.swift in Sources */,
@@ -184,11 +183,12 @@
 				F984CF512593FAD100E91768 /* AppDelegate.swift in Sources */,
 				F984CF582593FAD100E91768 /* ContentView.swift in Sources */,
 				F984CF782593FFC100E91768 /* FriendView.swift in Sources */,
+				F9FF8AA025982B890039FFF4 /* Initializer.swift in Sources */,
+				F9FF8AA125982B890039FFF4 /* UserStruct.swift in Sources */,
+				F9FF8AA225982B890039FFF4 /* FriendStruct.swift in Sources */,
 				F984CF532593FAD100E91768 /* SceneDelegate.swift in Sources */,
 				F984CF762593FF5B00E91768 /* UserView.swift in Sources */,
 				F9337B512597EC4900E8D619 /* User+CoreDataProperties.swift in Sources */,
-				F984CF742593FEE500E91768 /* FriendStruct.swift in Sources */,
-				F984CF722593FE9900E91768 /* UserStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
