@@ -7,11 +7,38 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct ContentView: View {
+//    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(entity: User.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \User.name, ascending: true)]) var users: FetchedResults<User>
+    @ObservedObject var initializer = Initializer()
+
+
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List {
+                ForEach(users, id: \.self) { user in
+                    NavigationLink(destination: UserView(user: user)) {
+                        VStack(alignment: .leading) {
+                            Text(user.wrappedName)
+                                .font(.headline)
+                            Text("Company: \(user.wrappedCompany)")
+                                .foregroundColor(.gray)
+                        }
+                    }
+                }
+            }
+            .navigationBarTitle("UsersFriendsCoreData")
+        }
+//        .onAppear(perform: checkData)
     }
+
+//    func checkData() {
+//        if users.isEmpty {
+//            initializer.fetchData(moc: moc)
+//        }
+//    }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +46,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9337B4E2597EC4900E8D619 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9337B4A2597EC4900E8D619 /* Friend+CoreDataClass.swift */; };
+		F9337B4F2597EC4900E8D619 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9337B4B2597EC4900E8D619 /* Friend+CoreDataProperties.swift */; };
+		F9337B502597EC4900E8D619 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9337B4C2597EC4900E8D619 /* User+CoreDataClass.swift */; };
+		F9337B512597EC4900E8D619 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9337B4D2597EC4900E8D619 /* User+CoreDataProperties.swift */; };
 		F984CF512593FAD100E91768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF502593FAD100E91768 /* AppDelegate.swift */; };
 		F984CF532593FAD100E91768 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF522593FAD100E91768 /* SceneDelegate.swift */; };
-		F984CF562593FAD100E91768 /* UsersFriendsCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F984CF542593FAD100E91768 /* UsersFriendsCoreData.xcdatamodeld */; };
 		F984CF582593FAD100E91768 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF572593FAD100E91768 /* ContentView.swift */; };
 		F984CF5A2593FADD00E91768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F984CF592593FADD00E91768 /* Assets.xcassets */; };
 		F984CF5D2593FADD00E91768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F984CF5C2593FADD00E91768 /* Preview Assets.xcassets */; };
 		F984CF602593FADD00E91768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F984CF5E2593FADD00E91768 /* LaunchScreen.storyboard */; };
+		F984CF702593FE5C00E91768 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF6F2593FE5C00E91768 /* Initializer.swift */; };
+		F984CF722593FE9900E91768 /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF712593FE9900E91768 /* UserStruct.swift */; };
+		F984CF742593FEE500E91768 /* FriendStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF732593FEE500E91768 /* FriendStruct.swift */; };
+		F984CF762593FF5B00E91768 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF752593FF5B00E91768 /* UserView.swift */; };
+		F984CF782593FFC100E91768 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F984CF772593FFC100E91768 /* FriendView.swift */; };
+		F984CF902594216500E91768 /* UsersFriendsCoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = F984CF8F2594216500E91768 /* UsersFriendsCoreData.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9337B4A2597EC4900E8D619 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F9337B4B2597EC4900E8D619 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F9337B4C2597EC4900E8D619 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F9337B4D2597EC4900E8D619 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F984CF4D2593FAD100E91768 /* UsersFriendsCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsersFriendsCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F984CF502593FAD100E91768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F984CF522593FAD100E91768 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F984CF552593FAD100E91768 /* UsersFriendsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UsersFriendsCoreData.xcdatamodel; sourceTree = "<group>"; };
 		F984CF572593FAD100E91768 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F984CF592593FADD00E91768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F984CF5C2593FADD00E91768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F984CF5F2593FADD00E91768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F984CF612593FADD00E91768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F984CF6F2593FE5C00E91768 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
+		F984CF712593FE9900E91768 /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		F984CF732593FEE500E91768 /* FriendStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendStruct.swift; sourceTree = "<group>"; };
+		F984CF752593FF5B00E91768 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F984CF772593FFC100E91768 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
+		F984CF8F2594216500E91768 /* UsersFriendsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = UsersFriendsCoreData.xcdatamodel; path = UsersFriendsCoreData/UsersFriendsCoreData.xcdatamodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +60,9 @@
 		F984CF442593FAD100E91768 = {
 			isa = PBXGroup;
 			children = (
+				F984CF6F2593FE5C00E91768 /* Initializer.swift */,
+				F984CF712593FE9900E91768 /* UserStruct.swift */,
+				F984CF732593FEE500E91768 /* FriendStruct.swift */,
 				F984CF4F2593FAD100E91768 /* UsersFriendsCoreData */,
 				F984CF4E2593FAD100E91768 /* Products */,
 			);
@@ -58,13 +79,19 @@
 		F984CF4F2593FAD100E91768 /* UsersFriendsCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F9337B4A2597EC4900E8D619 /* Friend+CoreDataClass.swift */,
+				F9337B4B2597EC4900E8D619 /* Friend+CoreDataProperties.swift */,
+				F9337B4C2597EC4900E8D619 /* User+CoreDataClass.swift */,
+				F9337B4D2597EC4900E8D619 /* User+CoreDataProperties.swift */,
 				F984CF502593FAD100E91768 /* AppDelegate.swift */,
 				F984CF522593FAD100E91768 /* SceneDelegate.swift */,
 				F984CF572593FAD100E91768 /* ContentView.swift */,
+				F984CF752593FF5B00E91768 /* UserView.swift */,
+				F984CF772593FFC100E91768 /* FriendView.swift */,
 				F984CF592593FADD00E91768 /* Assets.xcassets */,
 				F984CF5E2593FADD00E91768 /* LaunchScreen.storyboard */,
 				F984CF612593FADD00E91768 /* Info.plist */,
-				F984CF542593FAD100E91768 /* UsersFriendsCoreData.xcdatamodeld */,
+				F984CF8F2594216500E91768 /* UsersFriendsCoreData.xcdatamodel */,
 				F984CF5B2593FADD00E91768 /* Preview Content */,
 			);
 			path = UsersFriendsCoreData;
@@ -149,10 +176,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F984CF562593FAD100E91768 /* UsersFriendsCoreData.xcdatamodeld in Sources */,
+				F984CF702593FE5C00E91768 /* Initializer.swift in Sources */,
+				F9337B4E2597EC4900E8D619 /* Friend+CoreDataClass.swift in Sources */,
+				F9337B502597EC4900E8D619 /* User+CoreDataClass.swift in Sources */,
+				F9337B4F2597EC4900E8D619 /* Friend+CoreDataProperties.swift in Sources */,
+				F984CF902594216500E91768 /* UsersFriendsCoreData.xcdatamodel in Sources */,
 				F984CF512593FAD100E91768 /* AppDelegate.swift in Sources */,
 				F984CF582593FAD100E91768 /* ContentView.swift in Sources */,
+				F984CF782593FFC100E91768 /* FriendView.swift in Sources */,
 				F984CF532593FAD100E91768 /* SceneDelegate.swift in Sources */,
+				F984CF762593FF5B00E91768 /* UserView.swift in Sources */,
+				F9337B512597EC4900E8D619 /* User+CoreDataProperties.swift in Sources */,
+				F984CF742593FEE500E91768 /* FriendStruct.swift in Sources */,
+				F984CF722593FE9900E91768 /* UserStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,19 +380,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F984CF542593FAD100E91768 /* UsersFriendsCoreData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F984CF552593FAD100E91768 /* UsersFriendsCoreData.xcdatamodel */,
-			);
-			currentVersion = F984CF552593FAD100E91768 /* UsersFriendsCoreData.xcdatamodel */;
-			path = UsersFriendsCoreData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F984CF452593FAD100E91768 /* Project object */;
 }
